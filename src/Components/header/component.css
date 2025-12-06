@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    width: 1376px;
+    height: 76px;
+    justify-content: space-between;
+    border-radius: 16px;
+    border: 2px solid rgba(39, 43, 48, 1);
+    background-color: rgba(26, 29, 31, 1);
+}
+
+.headerItem1 {
+    display: flex;
+    gap: 18px;
+}
+
+.headerItem1 img {
+    width: 104px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.headerItem1 p {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+#rustIcon {
+    width: 24px;
+    height: 24px;
+    padding-top: 24px;
+    margin-left: -25px;
+}
+
+
+.headerItem2 {
+    width: 481px;
+    height: 24px;
+}
+
+.headerItem2 button {
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    background: none;
+    color: aliceblue;
+    margin: 25px 3px 0 3px;
+}
+
+.headerItem3 {
+    display: flex;
+    padding-top: 20px;
+    gap: 5px;
+}
+
+.headerItem3 img {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+}
+
+#userIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.headerItem3 p {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: aliceblue;
+}

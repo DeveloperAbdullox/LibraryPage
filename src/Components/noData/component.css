@@ -1,0 +1,23 @@
+.noData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 488px;
+    height: 263px;
+    margin-left: 170px;
+    margin-top: -80px;
+}
+
+.noData img {
+    width: 305px;
+    height: 203px;
+    padding-left: 30px;
+}
+
+.noData p {
+    width: 488px;
+    height: 36px;
+    font-size: 28px;
+    font-weight: 700;
+    color: aliceblue;
+}

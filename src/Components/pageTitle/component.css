@@ -1,0 +1,24 @@
+.pageTitle {
+    display: flex;
+    width: 326px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(35, 38, 39, 1);
+    background-color: rgba(26, 29, 31, 1);
+}
+
+.vector {
+    width: 44px;
+    height: 44px;
+    background: none;
+    filter: drop-shadow(0 0 35px rgba(11, 24, 255, 0.5));
+}
+
+.pageTitle h1 {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 32px;
+}

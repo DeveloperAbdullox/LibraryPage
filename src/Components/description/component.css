@@ -1,0 +1,106 @@
+.Card {
+    position: relative;
+    display: flex;
+    width: 676px;
+    height: 217px;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: -120px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-color: rgba(26, 29, 31, 1);
+}
+
+#img1 {
+    width: 132px;
+    height: 177px;
+
+}
+
+#language {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 22px;
+    border: 1px solid rgba(105, 105, 105, 1);
+    background: rgba(26, 29, 31, 1);
+    color: aliceblue;
+    border-radius: 4px;
+    top: 145px;
+    left: 20px;
+}
+
+#rating {
+    position: absolute;
+    width: 53px;
+    height: 29px;
+    background-color: rgba(11, 20, 24, 0.6);
+    border-radius: 4px;
+    border: 1px solid rgba(247, 249, 250, 0.16);
+    color: aliceblue;
+    top: 10px;
+    left: 15px;
+}
+
+.cardItem {
+    padding-left: 20px;
+}
+
+.cardItem h1 {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cardItem span {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: rgba(247, 249, 250, 0.64);
+    font-weight: 400;
+    font-size: 11px;
+
+}
+
+#newPrice {
+    color: rgba(130, 204, 39, 1);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.infoItem {
+    display: flex;
+    column-gap: 5px;
+}
+
+.infoItem p {
+    margin-right: 30px;
+    color: rgba(247, 249, 250, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* .buttonItem {
+    margin-bottom: 10px;
+} */
+
+
+.buttonItem button {
+    width: 198px;
+    height: 40px;
+    /* background-color: rgba(28, 146, 224, 1); */
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+}
+
+.buttonItem img {
+    width: 24px;
+    height: 24px;
+    margin-left: 280px;
+    margin-bottom: -10px;
+}

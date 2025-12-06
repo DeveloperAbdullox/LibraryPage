@@ -1,0 +1,23 @@
+.breadcrumb {
+    display: flex;
+    column-gap: 10px;
+}
+
+#home {
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+}
+.breadcrumb img {
+    width: 10px;
+    height: 10px;
+    padding-top: 21px;
+}
+
+.breadcrumb p {
+    color: aliceblue;
+}
+
+#homePage {
+    color: rgba(109, 114, 116, 1);
+}
